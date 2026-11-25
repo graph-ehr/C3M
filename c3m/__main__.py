@@ -1,4 +1,3 @@
-"""Portable command-line interfaces for the C3M method."""
 import argparse
 import csv
 import json
