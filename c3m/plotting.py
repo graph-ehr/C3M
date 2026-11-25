@@ -1,4 +1,3 @@
-"""Optional train/validation plots using only the supplied experiment history."""
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
