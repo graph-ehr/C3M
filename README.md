@@ -1,5 +1,6 @@
 # C3M
 
+This repository provides the implementation of C3M from the paper **Democratizing Clinical Risk Prediction with Cross-Cohort Cross-Modal Knowledge Transfer**, published at NeurIPS 2025.
 C3M learns from EHR and genetic data in a source cohort and supports prediction and
 adaptation in target cohorts with EHR data alone. The model combines graph-guided EHR
 representation adaptation, a gene Transformer with learnable aggregation tokens, and
@@ -18,8 +19,6 @@ The implementation was tested with:
 - PyTorch 2.5.1+cu121
 - PyTorch Geometric 2.6.1
 
-Matplotlib is optional for training curves; it was not installed in the tested training
-environment. Numeric histories and metrics are saved without it.
 Run examples from the repository directory. CPU execution is supported; GPU execution
 requires a compatible GPU driver and CUDA-enabled PyTorch build.
 
