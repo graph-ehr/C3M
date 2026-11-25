@@ -83,9 +83,7 @@ have no clinical interpretation.
 
 ## Preparing real data
 
-Provide the same files as the toy example. A single `.npz` archive with the same array
-names is also supported. Use numeric arrays and Unicode string arrays; object arrays
-and nonfinite numeric values are rejected.
+Provide the same files as the toy example. 
 
 | Array | Shape | Description |
 | --- | --- | --- |
