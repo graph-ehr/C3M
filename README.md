@@ -96,10 +96,5 @@ Provide the same files as the toy example.
 | `gene_ids` | `[G]` | Unique subset of `ids`, aligned to gene rows |
 | `gene_names` | `[K]` | Unique gene names in column order |
 
-EHR arrays and labels share the row order of `ids`. Genetic data is matched by `gene_ids`;
-patients without genetics have no gene row. An observed all-zero gene vector represents
-absence of the encoded variants. The loader accepts binary gene indicators or nonnegative
-counts and converts them to binary presence/absence using `genes > 0`.
-
 Source training requires EHR, labels and observed genetics. Target fine-tuning requires
 EHR and labels.
